@@ -1,0 +1,20 @@
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Chrome;
+using HomePage
+
+namespace AutomationTests
+{
+    [TestClass]
+    public class HomePageTests
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+           HomePage homePagee = new HomePage();
+           home.TestMethod1();
+        }
+
+    }
+}
